@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { searchMovies } from '../../services/tmdbapi';
 import MovieList from '../../components/MovieList/MovieList';
-import css from './MoviePage.module.css';
+import css from './MoviesPage.module.css';
 
 function MoviesPage() {
   const [movies, setMovies] = useState([]);

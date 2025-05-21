@@ -8,7 +8,7 @@ function HomePage() {
 
   useEffect(() => {
     getTrendingMovies()
-      .then(res => setMovies(res.data.hits))
+      .then(res => setMovies(res.data.results))
       .catch(err => console.error(err));
   }, []);
 
